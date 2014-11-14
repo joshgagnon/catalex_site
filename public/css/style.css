@@ -1,0 +1,185 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic');
+
+
+body{
+font-family: Open Sans,sans-serif;
+	font: 13px/26px 'Open Sans', sans-serif;
+	font-weight: normal;
+	color: #807F7F;
+	text-align: center;
+}
+h2 {
+font-size: 2.5em;
+line-height: 46px;
+font-weight: 100;
+-webkit-text-stroke: 0.01em;
+margin-bottom: 20px;
+color:#000;
+}
+h3{
+color:#000;
+}
+hr.head-separator {
+border-color: #FF5349;
+width: 100px;
+border-width: 2px;
+}
+
+section{
+	padding-top: 7%;
+padding-bottom: 7%;
+}
+
+.section-head p {
+letter-spacing: 2px;
+font-weight: 100;
+}
+.home{
+	background: url(/images/plant3_sml.jpg) center center;
+	background-size: cover;
+text-align:center;
+}
+
+
+.home .big-text{
+	font-size: 46px;
+font-weight: 400;
+color: #000000;
+line-height: 58px;
+}
+
+.home h1.logo{
+	margin-bottom: 60px;
+}
+.home h1.logo img{
+max-width: 70%;
+}
+.navbar{
+	display:none;
+}
+
+.btn-primary{
+	background-color: #e2443a;
+	border:1px solid #e2443a;
+}
+
+.btn {
+margin-bottom: 10px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+-o-transition: all 0.3s;
+transition: all 0.3s;
+background-image:none;
+font-weight: 300;
+color:#fff;
+text-shadow:none;
+box-shadow: none;
+}
+
+.btn-lg{
+	font-size: 20px;
+padding: 20px 0 20px 0;
+margin: 20px;
+width:256px;
+}
+
+.btn.btn-people{
+	background-color: #F26332;
+border: 1px solid #FF5349;
+}
+
+.btn-lg:hover{
+	background-color:#fff;
+	color:#000;
+}
+.home-buttons{
+	margin-top: 60px;
+}
+
+.quote{
+	background-image: url(/images/type_sml.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+display: block;
+position: relative;
+height:800px;
+}
+.people{
+	background-color:#f8f8f8;
+}
+.blurb-col{
+	padding-bottom:28px;
+}
+.footer{
+	background-color:#141414;
+	padding-top:60px;
+	padding-bottom:60px;
+}
+.footer .footer-links li{
+	list-style:none;
+	display:inline;
+	margin:20px;
+}
+.footer  a {
+text-transform: uppercase;
+color:#626262;
+font-size: 11px;
+padding:10px;
+}
+
+.blurb{
+	text-align: justify;
+}
+.investor-page{
+	background-image:url(/images/road_sml.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+.investor-page p {
+	text-align: justify;
+}
+.investor-page img{
+	max-width: 100%;
+}
+.investor-intro{
+	color:#fff;
+	text-align:left;
+height: 750px;
+padding-top: 80px;
+}
+.investor-intro h1{
+	font-weight:300;
+	font-size: 46px;
+	color:#fff;
+}
+.investor-info h3{
+	color:#000;
+	font-size: 22px;
+}
+
+.investor-info{
+	background-color: #fff;
+}
+.investor-info .service p{
+	text-align:left;
+}
+.investor-info h4{
+	color:#ff5349;
+}
+
+
+.investor-info .col-img{
+	margin-top:32px;
+}
+
+.push-large{
+	height:500px;
+}
