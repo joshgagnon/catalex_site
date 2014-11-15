@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title')
 @parent
-:: Home
+Investor
 @stop
 @section('content')
 <div class="investor-page">
@@ -79,10 +79,23 @@
 					</div>
 				</div>				
 
-				</p><hr class="head-separator">
+				</p>
 			</div>
-			
-
+			</div>
+			</section>
+	<section id="quote" class="quote quote-remember container-fluid">
+	
+	<div class="row">
+		
+		<div class="section-head  text-center">
+			<h2>Lawyers forget. Computers remember.</h2>
+		
+		</div>
+		
+	</div>
+</section>
+			<section class="investor-info">
+			<div class="container">
 			<div class="section-head text-center">
 				<h2>Reliable Services (but not from a lawyer)</h2>
 				<p>
@@ -132,7 +145,7 @@ The software will be subject to a monthly subscription fee. It is currently envi
 				<h3>Projects
 				</h3>
 				<p>
-<p>We believe that the practice of law is ripe for computer automation, particularly in the business law context. This is because a significant component of a business lawyer’s practice is repetitive (drafting the same document with only minor variations, drawing on the same piece of legislation, and repeating the same logical (A+B=C) process, as dictated by prescribed processes (such as those in the Companies Act 1993), making these tasks easily translatable into software code.</p>
+<p>We believe that the practice of law is ripe for computer automation, particularly in the business context. This is because a significant component of a business lawyer’s practice is repetitive (drafting the same document with only minor variations, drawing on the same piece of legislation, and repeating the same logical (A+B=C) calculations, as dictated by prescribed processes (such as those in the Companies Act 1993), making these tasks easily translatable into software code.</p>
 <p>The threshold for when a non-lawyer cannot provide legal services is actually (although not perceived to be) very high, provided they do not hold themselves out to be a lawyer. Aside from the ability to certify documents and take affidavits and declarations, generally only court work, relationship property, and a few other areas of law legally require a registered lawyer.</p>
 <p>Many non-lawyer professionals provide legal services and advice as ‘bush lawyers’, often because it is more cost effective for their clients than seeing a lawyer. The standard of such lawyering can be inconsistent or of doubtful quality, and the potential liability from providing legal guidance without quality tools, information and support, is significant.</p>
 <p>Regulators such as the Registrar of Companies and the Financial Markets Authority are becoming better funded and increasingly focused on enforcement. Inland Revenue is similarly beefing up its approach to collection and enforcement. Compliance is often seen as a burden, both in terms of time and cost, for small to medium sized businesses. A vehicle for virtually automated compliance would be hugely attractive. Business owners, particularly those involved with start-ups of where their own money is on the line, like to do things themselves when able. Perhaps this is simply the typical Kiwi ‘No. 8 wire’ attitude.</p>
@@ -165,7 +178,7 @@ The software will be subject to a monthly subscription fee. It is currently envi
 				<p>
 <p>Physical file storage is usually legally and practically unnecessary, and is now increasingly seen as out-dated.</p>
 <p>Although cloud storage of business records is not yet the norm (most businesses still have local servers or network-attached storage devices), it is likely to be so in 5-10 years. Cloud storage is an effective way of recovering business records when they are unavailable locally, for example due to a disaster or power outage.</p>
-<p>External administration of business records (for example by company secretaries, accountants, and lawyers) is extremely variable in terms of both quality, cost, and access.</p>
+<p>External administration of business records (for example by company secretaries, accountants, and lawyers) is extremely variable in terms of quality, cost, and access.</p>
 <p>Electronic due diligence providers such as Ansarada and Intralinks are seen as expensive, and only commercially justified for large projects.</p>
 
 
@@ -180,15 +193,16 @@ The software will be subject to a monthly subscription fee. It is currently envi
 				<p>
 CataLex software will be initially targeted at chartered accountant firms whose customers are mostly small-to-medium sized companies. We are targeting chartered accountants for three main reasons:</p>	
 
-	<p>Interaction with law – chartered accountants constantly interact with the law as part of their job, whether they are acting as accountants, company secretaries, business advisers, insolvency practitioners, or in some other capacity. Accountants also commonly provide legal information and precedent documents (e.g. resolutions, certificates, and constitutions) to their clients. They also attend to certain compliance obligations on their clients’ behalf, such as keeping statutory records. As a result, chartered accountants have a particular need for a cost-effective, non-legalistic, and fairly comprehensive legal resource.
-</p>	
-<p>Xero – Many if not most chartered accountant firms are now using, have used, or are at least familiar with, Xero – cloud-based accounting software, charged to the business through a subscription held by the accountant.
-</p>	
-<p>CataLex will have many of the same features as, and will be designed specifically to work with, Xero. We believe this will significantly assist market penetration. In addition, Xero has taken away many traditional ‘bread-andbutter’ accounting services from chartered accountants. They are in need a new source of revenue, and CataLex software therefore presents an opportunity.
-</p>	
-<p>Changing the legal profession from the outside – We believe lawyers and law firms would not have enough incentive to adopt a product like CataLex, as the profession currently stands. This is largely because time-based billing, the standard charging method for most practitioners, acts as a barrier to efficiency (the more time I spend on something, the more I charge). We believe this kind of thinking needs to and will change, but not until the profession experiences enough competitive pressure from the outside to compel it to innovate. CataLex software can provide that competitive pressure, and the accounting profession is the perfect vehicle because it is so closely aligned with the legal profession.
-			</p>	
-			
+<ul>
+	<li><span class="bullet-heading">Interaction with law</span> – chartered accountants constantly interact with the law as part of their job, whether they are acting as accountants, company secretaries, business advisers, insolvency practitioners, or in some other capacity. Accountants also commonly provide legal information and precedent documents (e.g. resolutions, certificates, and constitutions) to their clients. They also attend to certain compliance obligations on their clients’ behalf, such as keeping statutory records. As a result, chartered accountants have a particular need for a cost-effective, non-legalistic, and fairly comprehensive legal resource.
+</li>	
+<li><span class="bullet-heading">Xero</span> – Many if not most chartered accountant firms are now using, have used, or are at least familiar with, Xero – cloud-based accounting software, charged to the business through a subscription held by the accountant.
+
+<p>CataLex will have many of the same features as, and will be designed specifically to work with, Xero. We believe this will significantly assist market penetration. In addition, Xero has taken away many traditional ‘bread-andbutter’ accounting services from chartered accountants. They are in need a new source of revenue, and CataLex software therefore presents an opportunity.</p>
+</li>
+<li><span class="bullet-heading">Changing the legal profession from the outside</span> – We believe lawyers and law firms would not have enough incentive to adopt a product like CataLex, as the profession currently stands. This is largely because time-based billing, the standard charging method for most practitioners, acts as a barrier to efficiency (the more time I spend on something, the more I charge). We believe this kind of thinking needs to and will change, but not until the profession experiences enough competitive pressure from the outside to compel it to innovate. CataLex software can provide that competitive pressure, and the accounting profession is the perfect vehicle because it is so closely aligned with the legal profession.
+			</li>	
+	</ul>
 		</div>
 		<div class="container text-center">
 				{{ HTML::image('images/grow.jpg', 'Calatex')}}
@@ -212,7 +226,7 @@ In order to achieve listing, the business will require further and fairly consis
 <h3>Documents</h3>
 
 <p>Werecommend investors review the following documents before considering an investment in CataLex:
-Constitution – the founding document of CataLex Limited, which contains important provisions relating to the issue and transfer of shares.</p>
+Constitution – the founding document of CataLex Limited, which contains important provisions relating to, among other things,  the issue and transfer of shares.</p>
 
 <p>Share Subscription Form – the form for investors to complete should they wish to invest in CataLex (independent legal advice is recommended). Completed forms may be scanned and emailed to Catalex
 Please indicate your preferred ‘Deposit Date’ and ‘Issue Date’, and insert the amount you are prepared to invest in the definition of ‘Purchase Price’.

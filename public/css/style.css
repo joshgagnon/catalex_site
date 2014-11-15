@@ -1,12 +1,16 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic');
 
-
+html {
+  position: relative;
+  min-height: 100%;
+}
 body{
 font-family: Open Sans,sans-serif;
 	font: 13px/26px 'Open Sans', sans-serif;
 	font-weight: normal;
 	color: #807F7F;
 	text-align: center;
+	padding-bottom:183px;
 }
 h2 {
 font-size: 2.5em;
@@ -30,10 +34,11 @@ section{
 padding-bottom: 7%;
 }
 
-.section-head p {
-letter-spacing: 2px;
+.section-head p, .section-head ul {
 font-weight: 100;
+text-align: justify;
 }
+
 .home{
 	background: url(/images/plant3_sml.jpg) center center;
 	background-size: cover;
@@ -100,6 +105,7 @@ border: 1px solid #FF5349;
 	margin-top: 60px;
 }
 
+.login,
 .quote{
 	background-image: url(/images/type_sml.jpg);
 background-position: center center;
@@ -109,8 +115,30 @@ display: block;
 position: relative;
 height:800px;
 }
+
+.quote-remember{
+	background-image: url(/images/remember-tall.jpg);
+	height:1200px;
+}
+.login{
+		background-image: url(/images/gate-widened.jpg);
+		height: 100%;
+position: absolute;
+width: 100%;e
+}
+.footer{
+	position: absolute;
+bottom: 0;
+width: 100%;
+background-color: #f5f5f5;
+}
+
 .people{
 	background-color:#f8f8f8;
+}
+
+.people .section-head p{
+	text-align:center;
 }
 .blurb-col{
 	padding-bottom:28px;
@@ -125,7 +153,7 @@ height:800px;
 	display:inline;
 	margin:20px;
 }
-.footer  a {
+.footer  .nav-links a {
 text-transform: uppercase;
 color:#626262;
 font-size: 11px;
@@ -151,7 +179,7 @@ background-attachment: fixed;
 }
 .investor-intro{
 	color:#fff;
-	text-align:left;
+
 height: 750px;
 padding-top: 80px;
 }
@@ -169,7 +197,7 @@ padding-top: 80px;
 	background-color: #fff;
 }
 .investor-info .service p{
-	text-align:left;
+
 }
 .investor-info h4{
 	color:#ff5349;
@@ -182,4 +210,8 @@ padding-top: 80px;
 
 .push-large{
 	height:500px;
+}
+
+.bullet-heading{
+	font-style:italic;
 }

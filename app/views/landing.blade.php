@@ -1,7 +1,6 @@
 @extends('layouts.master')
 @section('title')
 @parent
-:: landing
 @stop
 @section('content')
 <section class="container-fluid home">
@@ -72,8 +71,8 @@
 		</div>
 	</div>
 </section>
-<section class="container-fluid people">
-	
+<section class="people">
+	<div class="container">
 	<div class="row">
 		
 		<div class="section-head offsetBottomL text-center" id="people" >
@@ -119,6 +118,7 @@
 					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 	</div>
 </section>

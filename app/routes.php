@@ -21,3 +21,10 @@ Route::get('/investor', function()
 {
 	return View::make('investor');
 });
+
+
+Route::get('/login', function()
+{
+	return View::make('login');
+});
+

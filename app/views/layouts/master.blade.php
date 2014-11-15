@@ -25,15 +25,15 @@
             <!-- Content -->
             @yield('content')
 
-<section id="footer" class="footer container-fluid text-center">
-    <div class="row">
+<footer id="footer" class="footer">
+    <div class="container">
         <div class="padding-b5">
             <div class="col-sm-12">
                 <ul class="social-icons text-center">
                 </ul>
             </div>
         </div>
-        <div class="">
+        <div class="nav-links">
             <div class="col-sm-12">
                 <a href="/">Home</a>
                 <a href="/investor">Investor Enter</a>
@@ -42,11 +42,11 @@
         <div class="">
             <div class="col-sm-12">
                 
-                <div class="copyright">©Copyright 2014 - Catalex Limited. All rights reserved.</div>
+                <div class="copyright">©Copyright 2014 - Catalex Limited. All rights reserved. &nbsp;&nbsp;<a href="mailto:mail@catalex.nz">mail@catalex.nz</a></div>
             </div>
         </div>
     </div>
-</section>
+</footer>
 
         <!-- Scripts are placed here -->
         {{ HTML::script('js/jquery-1.11.1.min.js') }}
