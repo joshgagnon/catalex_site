@@ -59,7 +59,7 @@
 	<div class="row">
 		
 		<div class="section-head  text-center">
-			<h2>"This is the way we've always done it"...is not a reason to keep doing it that way.</h2>
+			<h2>"This is the way we've always done it"...is no reason to keep doing it that way.</h2>
 			<hr class="head-separator">
 		</div>
 		
