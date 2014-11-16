@@ -63,12 +63,12 @@ max-width: 70%;
 	display:none;
 }
 
-.btn-primary{
+ .home-buttons .btn-primary{
 	background-color: #e2443a;
 	border:1px solid #e2443a;
 }
 
-.btn {
+.home-buttons .btn {
 margin-bottom: 10px;
 -webkit-border-radius: 3px;
 -moz-border-radius: 3px;
@@ -118,13 +118,21 @@ height:800px;
 
 .quote-remember{
 	background-image: url(/images/remember-tall.jpg);
-	height:1200px;
+	height:600px;
 }
 .login{
-		background-image: url(/images/gate-widened.jpg);
-		height: 100%;
+/*background-image: url(/images/gateleft.jpg), url(/images/gateright.jpg);
+height: 100%;
 position: absolute;
-width: 100%;e
+width: 100%;
+background-size: 50% auto, 50% auto;
+background-position: 0 center, 100% center;
+background-color:#000;*/
+background-image: url(/images/gate-widened.jpg);
+position: absolute;
+width: 100%;
+height: calc(100% - 100px);
+
 }
 .footer{
 	position: absolute;
@@ -163,12 +171,16 @@ padding:10px;
 .blurb{
 	text-align: justify;
 }
-.investor-page{
+.investor-bg{
 	background-image:url(/images/road_sml.jpg);
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
+height: 100%;
+width: 100%;
+position: fixed;
+z-index: -1;
 
 }
 .investor-page p {
@@ -214,4 +226,10 @@ padding-top: 80px;
 
 .bullet-heading{
 	font-style:italic;
+}
+
+@media only screen and (min-width : 1200px) {
+	.quote-remember{
+	height: 1200px;
+	}
 }
