@@ -21,15 +21,6 @@ Route::get('investor', 'InvestorController@show');
 Route::controller('users', 'UsersController');
 
 
-Route::get('files/{name}', function($name)
-{
-	if (Auth::check())
-	{
-	    $path = public_path('test.txt');
-	    $file = File::put($path, 'contents');
-	    return Response::download($path);
-	}
-	App::abort(403, 'Unauthorized action.');
-});
+Route::get('files/{fileName}', array('before' => 'auth', 'uses' => 'ReadFileController@read'));
 
 
