@@ -48,6 +48,13 @@ Route::filter('auth', function()
 	}
 });
 
+Route::filter('admin', function()
+{
+	if (!(Auth::user() && Auth::user()->role=='admin'))
+	{
+		return Response::make('Unauthorized', 403);
+	}
+});
 
 Route::filter('auth.basic', function()
 {

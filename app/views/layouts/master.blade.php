@@ -43,7 +43,7 @@
                     {{ HTML::link('users/logout', 'Logout') }}
                 @endif
                 @if(Auth::user() && Auth::user()->role=='admin')
-                    {{ HTML::link('blog', 'Law Blog') }}
+                    {{ HTML::link('blogs', 'Law Blog') }}
                  @endif
                
              </div>

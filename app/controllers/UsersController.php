@@ -18,11 +18,11 @@ class UsersController extends BaseController {
 		        ->with('message', 'Your username/password combination was incorrect')
 		        ->withInput();
 		}
-}
+	}
 
-public function getLogout() {
-    Auth::logout();
-    return Redirect::to('/');
-}
+	public function getLogout() {
+	    Auth::logout();
+	    return Redirect::to('/');
+	}
 }
 ?>

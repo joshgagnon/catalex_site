@@ -79,7 +79,7 @@ Investor
 		</div>
 	</section>
 
-	<section class="investor-info">
+	<section class="investor-info investor-reliable">
 		<div class="container">
 			<div class="section-head text-center">
 				<h2>Reliable Services (but not from a lawyer)</h2>

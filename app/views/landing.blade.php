@@ -63,12 +63,6 @@
 			<hr class="head-separator">
 		</div>
 		
-		
-		<div class="">
-			<div class="col-md-12">
-				<h2 style="text-align: center;"></h2>
-			</div>
-		</div>
 	</div>
 </section>
 <section class="people">
@@ -123,4 +117,19 @@
 	</div>
 </section>
 
+@if ($blogs->count())
+<section class="blog ">
+	<h2>Law Blog</h2>
+		<hr class="head-separator">
+	   <div class="container">
+      @foreach ($blogs as $blog)
+  			<div class="blog-entry">
+  				<h4>{{ $blog->title}}</h4>
+  				<div>{{ $blog->body}}</div>
+  			</div>
+      @endforeach
+      </div>
+</section>
+@endif
 @stop
+

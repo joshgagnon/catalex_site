@@ -11,10 +11,7 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('landing');
-});
+Route::get('/', 'LandingController@show');
 
 
 Route::get('investor', 'InvestorController@show');
@@ -24,3 +21,4 @@ Route::controller('users', 'UsersController');
 Route::get('files/{fileName}', array('before' => 'auth', 'uses' => 'ReadFileController@read'));
 
 
+Route::resource('blogs', 'BlogsController');

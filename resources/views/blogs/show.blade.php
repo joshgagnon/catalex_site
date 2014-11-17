@@ -1,0 +1,1 @@
+/Users/josh/catalex_site/resources/views/blogs/show.blade.php

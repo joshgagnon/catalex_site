@@ -118,7 +118,7 @@ height:800px;
 
 .quote-remember{
 	background-image: url(/images/remember-tall.jpg);
-	height:600px;
+	height:500px;
 }
 .login{
 /*background-image: url(/images/gateleft.jpg), url(/images/gateright.jpg);
@@ -162,38 +162,41 @@ background-color: #f5f5f5;
 	margin:20px;
 }
 .footer  .nav-links a {
-text-transform: uppercase;
-color:#626262;
-font-size: 11px;
-padding:10px;
+	text-transform: uppercase;
+	color:#626262;
+	font-size: 11px;
+	padding:10px;
 }
 
 .blurb{
 	text-align: justify;
 }
+
 .investor-bg{
 	background-image:url(/images/road_sml.jpg);
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-height: 100%;
-width: 100%;
-position: fixed;
-z-index: -1;
-
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: -1;
 }
+
 .investor-page p {
 	text-align: justify;
 }
+
 .investor-page img{
 	max-width: 100%;
 }
+
 .investor-intro{
 	color:#fff;
 
 height: 750px;
 padding-top: 80px;
+text-align:left;
 }
 .investor-intro h1{
 	font-weight:300;
@@ -229,6 +232,12 @@ padding-top: 80px;
 }
 .documents a{
 	color: #FF5349;
+}
+.investor-reliable{
+	padding-top:0;
+}
+.blog-entry{
+	text-align:justify;
 }
 @media only screen and (min-width : 1200px) {
 	.quote-remember{
