@@ -6,17 +6,17 @@ class UserTableSeeder extends Seeder {
     {
         DB::table('users')->delete();
         $names = array(
-            array('tamina', 'protestgrainexceed'),
-            array('thomas', 'confusecertainsocial'),
-            array('josh', 'recognizelovelyprotest'),
-            array('cathy', 'novelwallmetre'),
-            array('barry', 'ablecycleruling'),
-            array('barry', 'requireillcover'),
-            array('steve', 'conceptfavourseek'),
-            array('mark', 'lunchpacemaker'),
-            array('kate', 'beatnearplan'),
-            array('bloyfamily', 'lastfurniturefinance'),
-            array('investor', 'fantasyremainmyth')
+            array('tamina', 'protestgrainexceed', 'admin'),
+            array('thomas', 'confusecertainsocial', 'admin'),
+            array('josh', 'recognizelovelyprotest', 'admin'),
+            array('cathy', 'novelwallmetre', 'standard'),
+            array('barry', 'ablecycleruling', 'standard'),
+            array('barry', 'requireillcover', 'standard'),
+            array('steve', 'conceptfavourseek', 'standard'),
+            array('mark', 'lunchpacemaker', 'standard'),
+            array('kate', 'beatnearplan', 'standard'),
+            array('bloyfamily', 'lastfurniturefinance', 'standard'),
+            array('investor', 'fantasyremainmyth', 'standard')
             );
         foreach ($names as $name){
     
@@ -24,6 +24,7 @@ class UserTableSeeder extends Seeder {
 
             $user->fill(array(
             	'username' => $name[0],
+                'role'=> $name[2]
             	));
 
            	$user->password = Hash::make($name[1]);

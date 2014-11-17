@@ -42,7 +42,9 @@
                 @else
                     {{ HTML::link('users/logout', 'Logout') }}
                 @endif
-
+                @if(Auth::user() && Auth::user()->role=='admin')
+                    {{ HTML::link('blog', 'Law Blog') }}
+                 @endif
                
              </div>
         </div>
