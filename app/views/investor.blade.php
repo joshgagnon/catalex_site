@@ -181,6 +181,26 @@ Investor
 				</p>
 				<hr class="head-separator">
 			</div>
+
+
+		</div>
+		</section>
+
+			<section id="quote" class="quote iceberg container-fluid">
+		
+		<div class="row">
+			<div class="col-md-3 col-md-offset-8">
+			<div class="section-head  text-center">
+				<h2>CataLex will show you what’s beneath the surface.</h2>
+				
+			</div>
+			</div>
+			
+		</div>
+	</section>	
+
+				<section class="investor-info">
+	<div class="container">
 			<div class="section-head text-center">
 				<h2>The Target Market
 				</h2>

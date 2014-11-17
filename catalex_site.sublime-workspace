@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-align"
+			],
+			[
+				"backgorund-",
+				"background-size"
+			],
+			[
 				"tex",
 				"text-decoration"
 			],
@@ -35,20 +43,40 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 27.0,
 		"selected_items":
 		[
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"format",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"beaut",
+				"HTMLBeautify"
+			],
 			[
 				"pret",
 				"HTMLPrettify"
 			],
 			[
-				"format",
-				"Format: Javascript"
+				"BEAUT",
+				"HTMLBeautify"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
+				"PRETY",
+				"HTMLPrettify"
 			],
 			[
 				"user",
@@ -61,10 +89,6 @@
 			[
 				"prett",
 				"HTMLPrettify"
-			],
-			[
-				"beaut",
-				"HTMLBeautify"
 			],
 			[
 				"pretty",
@@ -115,10 +139,6 @@
 				"Indentation: Reindent Lines"
 			],
 			[
-				"beau",
-				"HTMLBeautify"
-			],
-			[
 				"in",
 				"Indentation: Reindent Lines"
 			],
@@ -163,7 +183,7 @@
 				"Indentation: Reindent Lines"
 			]
 		],
-		"width": 575.0
+		"width": 476.0
 	},
 	"console":
 	{
@@ -184,10 +204,111 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/josh/catalex_site"
+		"/Users/josh/catalex_site",
+		"/Users/josh/catalex_site/app",
+		"/Users/josh/catalex_site/app/controllers",
+		"/Users/josh/catalex_site/app/database",
+		"/Users/josh/catalex_site/app/database/migrations",
+		"/Users/josh/catalex_site/app/database/seeds",
+		"/Users/josh/catalex_site/app/models",
+		"/Users/josh/catalex_site/app/views",
+		"/Users/josh/catalex_site/app/views/blogs",
+		"/Users/josh/catalex_site/app/views/errors",
+		"/Users/josh/catalex_site/app/views/layouts",
+		"/Users/josh/catalex_site/app/views/users",
+		"/Users/josh/catalex_site/public",
+		"/Users/josh/catalex_site/public/css",
+		"/Users/josh/catalex_site/public/js",
+		"/Users/josh/catalex_site/public/packages"
 	],
 	"file_history":
 	[
+		"/Users/josh/catalex_site/app/views/blogs/create.blade.php",
+		"/Users/josh/catalex_site/app/controllers/ReadFileController.php",
+		"/Users/josh/catalex_site/app/views/investor.blade.php",
+		"/Users/josh/catalex_site/public/css/style.css",
+		"/Users/josh/catalex_site/app/models/Blog.php",
+		"/Users/josh/catalex_site/public/js/main.js",
+		"/Users/josh/catalex_site/composer.json",
+		"/Users/josh/catalex_site/app/filters.php",
+		"/Users/josh/catalex_site/app/controllers/BlogsController.php",
+		"/Users/josh/catalex_site/app/database/seeds/UserTableSeeder.php",
+		"/Users/josh/catalex_site/app/database/seeds/DatabaseSeeder.php",
+		"/Users/josh/catalex_site/app/database/migrations/2014_11_17_015106_remember_token.php",
+		"/Users/josh/catalex_site/app/controllers/LandingController.php",
+		"/Users/josh/catalex_site/app/controllers/InvestorController.php",
+		"/Users/josh/catalex_site/app/views/blogs/edit.blade.php",
+		"/Users/josh/catalex_site/app/views/blogs/index.blade.php",
+		"/Users/josh/catalex_site/app/routes.php",
+		"/Users/josh/catalex_site/app/views/landing.blade.php",
+		"/Users/josh/catalex_site/app/controllers/UsersController.php",
+		"/Users/josh/catalex_site/app/database/migrations/2014_11_17_010835_add_username_column.php",
+		"/Users/josh/catalex_site/bootstrap/start.php",
+		"/Users/josh/catalex_site/app/views/layouts/master.blade.php",
+		"/Users/josh/catalex_site/app/database/migrations/2014_11_17_004145_create-users-table.php",
+		"/Users/josh/catalex_site/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/MockArraySessionStorage.php",
+		"/Users/josh/catalex_site/vendor/symfony/finder/Symfony/Component/Finder/Iterator/FilterIterator.php",
+		"/Users/josh/catalex_site/vendor/symfony/console/Symfony/Component/Console/Formatter/OutputFormatterStyleStack.php",
+		"/Users/josh/catalex_site/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/MimeType/MimeTypeExtensionGuesser.php",
+		"/Users/josh/catalex_site/vendor/nesbot/carbon/tests/SubTest.php",
+		"/Users/josh/catalex_site/vendor/predis/predis/lib/Predis/Command/SetUnion.php",
+		"/Users/josh/catalex_site/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/LoggerPluginTest.php",
+		"/Users/josh/catalex_site/vendor/symfony/debug/Symfony/Component/Debug/Tests/FatalErrorHandler/UndefinedMethodFatalErrorHandlerTest.php",
+		"/Users/josh/catalex_site/vendor/psr/log/Psr/Log/LoggerAwareInterface.php",
+		"/Users/josh/catalex_site/app/start/local.php",
+		"/Users/josh/catalex_site/app/models/User.php",
+		"/Users/josh/catalex_site/app/start/global.php",
+		"/Users/josh/catalex_site/app/database/migrations/2014_11_17_203126_add_roles.php",
+		"/Users/josh/catalex_site/app/views/blogs/show.blade.php",
+		"/Users/josh/catalex_site/public/js/smoothscroll.js",
+		"/Users/josh/catalex_site/app/config/auth.php",
+		"/Users/josh/catalex_site/app/views/errors/500.blade.php",
+		"/Users/josh/catalex_site/app/views/errors/404.blade.php",
+		"/Users/josh/catalex_site/app/views/errors/403.blade.php",
+		"/Users/josh/catalex_site/app/views/users/login.blade.php",
+		"/Users/josh/catalex_site/vendor/laravel/framework/src/Illuminate/Database/Eloquent/MassAssignmentException.php",
+		"/Users/josh/catalex_site/app/config/app.php",
+		"/Users/josh/catalex_site/app/config/local/database.php",
+		"/Users/josh/catalex_site/vendor/filp/whoops/src/deprecated/Zend/module.config.example.php",
+		"/Users/josh/catalex_site/vendor/classpreloader/classpreloader/src/ClassPreloader/Config.php",
+		"/Users/josh/catalex_site/CONTRIBUTING.md",
+		"/Users/josh/catalex_site/vendor/laravel/framework/src/Illuminate/Remote/SecLibGateway.php",
+		"/Users/josh/catalex_site/vendor/nikic/php-parser/lib/PHPParser/Node/Expr/GreaterOrEqual.php",
+		"/Users/josh/catalex_site/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/EncodingObserver.php",
+		"/Users/josh/catalex_site/server.php",
+		"/Users/josh/catalex_site/public/index.php",
+		"/Users/josh/catalex_site/vendor/monolog/monolog/tests/Monolog/Handler/GelfHandlerLegacyTest.php",
+		"/Users/josh/catalex_site/vendor/laravel/framework/src/Illuminate/Database/Seeder.php",
+		"/Users/josh/catalex_site/vendor/laravel/framework/src/Illuminate/Database/SeedServiceProvider.php",
+		"/Users/josh/catalex_site/vendor/symfony/css-selector/Symfony/Component/CssSelector/Exception/SyntaxErrorException.php",
+		"/Users/josh/catalex_site/vendor/predis/predis/lib/Predis/ServerException.php",
+		"/Users/josh/catalex_site/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php",
+		"/Users/josh/catalex_site/vendor/filp/whoops/src/Whoops/Exception/ErrorException.php",
+		"/Users/josh/catalex_site/app/tests/ExampleTest.php",
+		"/Users/josh/catalex_site/app/views/login.blade.php",
+		"/Users/josh/catalex_site/vendor/predis/predis/lib/Predis/Command/StringDecrementBy.php",
+		"/Users/josh/catalex_site/vendor/laravel/framework/src/Illuminate/Support/Facades/DB.php",
+		"/Users/josh/catalex_site/bootstrap/autoload.php",
+		"/Users/josh/catalex_site/public/css/bootstrap.css",
+		"/Users/josh/catalex_site/public/js/bootstrap.js",
+		"/Users/josh/catalex_site/vendor/nikic/php-parser/lib/PHPParser/Node/Expr/BitwiseOr.php",
+		"/Users/josh/catalex_site/vendor/bin/boris",
+		"/Users/josh/catalex_site/vendor/composer/autoload_psr4.php",
+		"/Users/josh/catalex_site/vendor/laravel/framework/src/Illuminate/Console/ConfirmableTrait.php",
+		"/Users/josh/catalex_site/vendor/symfony/console/Symfony/Component/Console/Question/ConfirmationQuestion.php",
+		"/Users/josh/catalex_site/vendor/laravel/framework/src/Illuminate/Foundation/EnvironmentDetector.php",
+		"/Users/josh/catalex_site/vendor/laravel/framework/src/Illuminate/Config/EnvironmentVariables.php",
+		"/Users/josh/catalex_site/vendor/symfony/css-selector/Symfony/Component/CssSelector/Node/ElementNode.php",
+		"/Users/josh/catalex_site/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/definition_astext.txt",
+		"/Users/josh/catalex_site/app/config/database.php",
+		"/Users/josh/catalex_site/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/UriSigner.php",
+		"/Users/josh/catalex_site/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Events/SimpleEventDispatcherTest.php",
+		"/Users/josh/catalex_site/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Events/SendEventTest.php",
+		"/Users/josh/catalex_site/vendor/laravel/framework/src/Illuminate/Auth/UserProviderInterface.php",
+		"/Users/josh/catalex_site/vendor/swiftmailer/swiftmailer/tests/unit/Swift/CharacterReader/UsAsciiReaderTest.php",
+		"/Users/josh/catalex_site/vendor/symfony/routing/Symfony/Component/Routing/Matcher/ApacheUrlMatcher.php",
+		"/Users/josh/catalex_site/artisan",
+		"/Users/josh/catalex_site/public/js/jquery.smoothscroll.js",
 		"/Users/josh/nzlawapi/static/style.css",
 		"/Users/josh/nzlawapi/tests/section47.xml",
 		"/Users/josh/nzlawapi/tmp",
@@ -214,7 +335,7 @@
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -228,6 +349,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"align",
+			"user",
+			"users",
+			"user",
+			"users",
+			"Post",
+			"Posts",
+			"	<section id=\"quote\" class=\"quote quote-remember container-fluid\">\n	\n	<div class=\"row\">\n		\n		<div class=\"section-head  text-center\">\n			<h2>Lawyers forget. Computers remember.</h2>\n		\n		</div>\n		\n	</div>\n</section>",
+			"people",
+			">\n",
+			"Safe",
+			"left",
+			"investor",
 			"font-fami",
 			"style",
 			"tohtml",
@@ -266,10 +400,16 @@
 		],
 		"highlight": true,
 		"in_selection": false,
-		"preserve_case": false,
+		"preserve_case": true,
 		"regex": false,
 		"replace_history":
 		[
+			"blog",
+			"blogs",
+			"blog",
+			"blogs",
+			"blog",
+			"blogs",
 			".legislation"
 		],
 		"reverse": false,
@@ -292,7 +432,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 29.0
 	},
 	"layout":
 	{
@@ -324,7 +464,7 @@
 	"project": "catalex_site.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -333,8 +473,88 @@
 		"selected_items":
 		[
 			[
+				"master",
+				"app/views/layouts/master.blade.php"
+			],
+			[
+				"landing",
+				"app/views/landing.blade.php"
+			],
+			[
+				"filter",
+				"app/filters.php"
+			],
+			[
 				"style",
-				"static/style.css"
+				"public/css/style.css"
+			],
+			[
+				"style.css",
+				"public/css/style.css"
+			],
+			[
+				"investor",
+				"app/views/investor.blade.php"
+			],
+			[
+				"style.cs",
+				"public/css/style.css"
+			],
+			[
+				"main.js",
+				"public/js/main.js"
+			],
+			[
+				"c",
+				"composer.json"
+			],
+			[
+				"config.app",
+				"app/config/app.php"
+			],
+			[
+				"comp",
+				"composer.json"
+			],
+			[
+				"glob",
+				"app/start/global.php"
+			],
+			[
+				"inves",
+				"app/views/investor.blade.php"
+			],
+			[
+				"global",
+				"app/start/global.php"
+			],
+			[
+				"seeder",
+				"app/database/seeds/UserTableSeeder.php"
+			],
+			[
+				"app/config/da",
+				"app/config/database.php"
+			],
+			[
+				"bootstrap/start",
+				"bootstrap/start.php"
+			],
+			[
+				"app/config",
+				"app/config/app.php"
+			],
+			[
+				"data",
+				"app/config/database.php"
+			],
+			[
+				"user",
+				"app/models/User.php"
+			],
+			[
+				"auth.php",
+				"app/config/auth.php"
 			],
 			[
 				"tmp",
@@ -371,7 +591,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 50.0,
+	"side_bar_width": 211.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
