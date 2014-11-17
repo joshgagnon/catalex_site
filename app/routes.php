@@ -17,14 +17,5 @@ Route::get('/', function()
 });
 
 
-Route::get('/investor', function()
-{
-	return View::make('investor');
-});
-
-
-Route::get('/login', function()
-{
-	return View::make('login');
-});
-
+Route::get('investor', 'InvestorController@show');
+Route::controller('users', 'UsersController');

@@ -36,13 +36,20 @@
         <div class="nav-links">
             <div class="col-sm-12">
                 <a href="/">Home</a>
-                <a href="/investor">Investor Enter</a>
+                <a href="/investor">Investor Portal</a>
+                @if(!Auth::check())
+                    {{ HTML::link('users/login', 'Login') }}
+                @else
+                    {{ HTML::link('users/logout', 'Logout') }}
+                @endif
+
+               
              </div>
         </div>
         <div class="">
             <div class="col-sm-12">
                 
-                <div class="copyright">©Copyright 2014 - Catalex Limited. All rights reserved. &nbsp;&nbsp;<a href="mailto:mail@catalex.nz">mail@catalex.nz</a></div>
+                <div class="copyright">©Copyright 2014 - CataLex Limited. All rights reserved. &nbsp;&nbsp;Contact: <a href="mailto:mail@catalex.nz">mail@catalex.nz</a></div>
             </div>
         </div>
     </div>

@@ -23,7 +23,7 @@
 				
 				
 				<div class="home-buttons">
-					<a href="/investor" class="btn btn-primary btn-lg">Investor Login</a>
+					<a href="/investor" class="btn btn-primary btn-lg">Investor Portal</a>
 					<a href="#people" class="btn btn-people btn-lg">About Us</a>
 				</div>
 				<ul class="os">
@@ -77,7 +77,7 @@
 		
 		<div class="section-head offsetBottomL text-center" id="people" >
 			<h2>About Us</h2>
-			<p>Meet CataLex's Management Team.</p>
+			<p>Meet CataLex's Leadership Team.</p>
 			<hr class="head-separator">
 		</div>
 		
