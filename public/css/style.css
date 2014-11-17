@@ -227,7 +227,9 @@ padding-top: 80px;
 .bullet-heading{
 	font-style:italic;
 }
-
+.documents a{
+	color: #FF5349;
+}
 @media only screen and (min-width : 1200px) {
 	.quote-remember{
 	height: 1200px;
