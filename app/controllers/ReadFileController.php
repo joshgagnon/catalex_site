@@ -3,20 +3,18 @@ class ReadFileController extends Controller {
 
     public function read($fileName)
     {
-    	 
-    	if($fileName == 'CataLexConstitution.docx' or $fileName == 'CataLexShareSubscription.docx'){
-        	return $this->getFile($fileName);
-    	}
-    	else
-        {
-            return Response::make('Unauthorized', 403); 
-        }
+
+        return $this->getFile($fileName);
     }
 
     private function getFile($fileName)
     {	
 
-   		return Response::download(join('/', array(app_path() , 'files', $fileName)));
+        $file = join('/', array(app_path() , 'files', $fileName));
+        if(File::exists($file)){
+   		   return Response::download($file);
+        }
+        return Response::make('Unauthorized', 403); 
     }
 
 }
