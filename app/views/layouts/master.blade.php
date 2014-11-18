@@ -37,14 +37,16 @@
             <div class="col-sm-12">
                 <a href="/">Home</a>
                 <a href="/investor">Investor Portal</a>
-                @if(!Auth::check())
-                    {{ HTML::link('users/login', 'Login') }}
-                @else
-                    {{ HTML::link('users/logout', 'Logout') }}
-                @endif
                 @if(Auth::user() && Auth::user()->role=='admin')
                     {{ HTML::link('blogs', 'Law Blog') }}
-                 @endif
+                    {{ HTML::link('users', 'Users') }}
+                 @endif                
+                @if(!Auth::check())
+                    {{ HTML::link('sessions/login', 'Login') }}
+                @else
+                    {{ HTML::link('sessions/logout', 'Logout') }}
+                @endif
+
                
              </div>
         </div>

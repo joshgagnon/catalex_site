@@ -15,8 +15,8 @@ Route::get('/', 'LandingController@show');
 
 
 Route::get('investor', 'InvestorController@show');
-Route::controller('users', 'UsersController');
-
+Route::controller('sessions', 'SessionsController');
+Route::resource('users', 'UsersController');
 
 Route::get('files/{fileName}', array('before' => 'auth', 'uses' => 'ReadFileController@read'));
 

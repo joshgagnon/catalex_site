@@ -45,7 +45,7 @@ Log::useFiles(storage_path().'/logs/laravel.log');
 | shown, which includes a detailed stack trace during debug.
 |
 */
-
+/*
 App::error(function($exception, $code)
 {
     switch ($code)
@@ -63,7 +63,7 @@ App::error(function($exception, $code)
             return Response::view('errors.default', array(), $code);
     }
 });
-
+*/
 /*
 |--------------------------------------------------------------------------
 | Maintenance Mode Handler
@@ -90,5 +90,5 @@ App::down(function()
 | definitions instead of putting them all in the main routes file.
 |
 */
-
+require app_path().'/start/events.php';
 require app_path().'/filters.php';

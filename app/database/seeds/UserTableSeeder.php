@@ -11,7 +11,6 @@ class UserTableSeeder extends Seeder {
             array('josh', 'recognizelovelyprotest', 'admin'),
             array('cathy', 'novelwallmetre', 'standard'),
             array('barry', 'ablecycleruling', 'standard'),
-            array('barry', 'requireillcover', 'standard'),
             array('steve', 'conceptfavourseek', 'standard'),
             array('mark', 'lunchpacemaker', 'standard'),
             array('kate', 'beatnearplan', 'standard'),
@@ -24,14 +23,14 @@ class UserTableSeeder extends Seeder {
 
             $user->fill(array(
             	'username' => $name[0],
-                'role'=> $name[2]
+                'role'=> $name[2],
+                'password'=>$name[1]
             	));
-
-           	$user->password = Hash::make($name[1]);
 
            	$user->save();
         }   
             
-        }
+
+    }
 
 }
