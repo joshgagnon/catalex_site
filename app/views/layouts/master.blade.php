@@ -10,9 +10,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <!-- CSS are placed here -->
-        {{ HTML::style('css/bootstrap.min.css') }}
 
-        {{ HTML::style('css/style.css') }}
+        {{ Minify::stylesheet(array('/css/bootstrap.min.css', '/css/style.css')) }}
     </head>
 
     <body>
@@ -60,9 +59,6 @@
 </footer>
 
         <!-- Scripts are placed here -->
-        {{ HTML::script('js/jquery-1.11.1.min.js') }}
-        {{ HTML::script('js/main.js') }}
-        {{ HTML::script('js/bootstrap.min.js') }}
-        {{ HTML::script('js/smoothscroll.js') }}
+        {{ Minify::javascript(array('/js/jquery-1.11.1.min.js', '/js/bootstrap.min.js', '/js/main.js', '/js/smoothscroll.js')) }}
     </body>
 </html>
