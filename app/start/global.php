@@ -46,7 +46,7 @@ Log::useFiles(storage_path().'/logs/laravel.log');
 |
 */
 
-/*App::error(function($exception, $code)
+App::error(function($exception, $code)
 {
     switch ($code)
     {
@@ -62,7 +62,7 @@ Log::useFiles(storage_path().'/logs/laravel.log');
         default:
             return Response::view('errors.default', array(), $code);
     }
-});*/
+});
 
 /*
 |--------------------------------------------------------------------------
