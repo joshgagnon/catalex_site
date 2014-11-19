@@ -43,6 +43,7 @@ text-align: justify;
 	background: url(/images/plant3_sml.jpg) center center;
 	background-size: cover;
 	text-align:center;
+	background-position-x: 86%;
 }
 
 .home .big-text{
@@ -141,6 +142,11 @@ position: absolute;
 width: 100%;
 height: calc(100% - 100px);
 
+}
+
+.login-form label.control-label{
+	color:#fff;
+	font-weight:100;
 }
 .footer{
 	position: absolute;
@@ -254,3 +260,10 @@ text-align:left;
 	height: 1200px;
 	}
 }
+
+@media only screen and (min-width : 1800px) {
+	.quote-remember{
+	height: 1500px;
+	}
+}
+

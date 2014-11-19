@@ -236,7 +236,7 @@ Investor
 				<h3>Documents</h3>
 				<p>We recommend investors review the following documents before considering an investment in CataLex:</p>
 				<p><a href="/files/Constitution.pdf">Constitution</a> – the founding document of CataLex Limited, which contains important provisions relating to, among other things,  the issue and transfer of shares.</p>
-				<p><a href="/files/ShareSubscriptionForm.docx">Share Subscription Form</a> – the form for investors to complete should they wish to invest in CataLex (independent legal advice is recommended). Completed forms may be scanned and emailed to Catalex
+				<p><a href="/files/ShareSubscriptionForm.pdf">Share Subscription Form</a> – the form for investors to complete should they wish to invest in CataLex (independent legal advice is recommended). Completed forms may be scanned and emailed to Catalex
 				Please indicate your preferred ‘Deposit Date’ and ‘Issue Date’, and insert the amount you are prepared to invest in the definition of ‘Purchase Price’.
 				Download Share Subscription Form
 				</p>
