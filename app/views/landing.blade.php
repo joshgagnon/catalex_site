@@ -119,7 +119,7 @@
 
 @if ($blogs->count())
 <section class="blog ">
-	<h2>Law Blog</h2>
+	<h2>News</h2>
 		<hr class="head-separator">
 	   <div class="container">
       @foreach ($blogs as $blog)
