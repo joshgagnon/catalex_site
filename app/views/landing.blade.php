@@ -84,7 +84,7 @@
 						<p><img class="img-circle" src="http://catalex.icandymedia.co.nz/wp-content/uploads/2014/09/tamina.jpg" alt="tamina" width="201" height="135"></p>
 						<div class="feature-item"><i class="fa fa-gavel"></i>
 							<h3>Tamina Cunningham-Adams<br>
-							LLB (Hons), BA, B Ed (Tchg)</h3>
+							<span class="degrees">LLB (Hons), BA, B Ed (Tchg)</span></h3>
 							<p class="blurb">
 							Tamina is a banking and finance lawyer and practising liquidator.&nbsp; She specialises in corporate and personal insolvency law, securities enforcement and litigation.&nbsp; Before commencing practice as a liquidator, Tamina was a specialist litigator for top tier law firm, Simpson Grierson, for several years.</p>
 							<p class="blurb">NZ Lawyer Magazine recently featured Tamina in its 2014 Lawyer Hotlist of 38 New Zealand lawyers changing the <a href="http://www.nzlawyermagazine.co.nz/files/file/special-report/NZL6.1_Hotlist2014.pdf">legal industry</a>.&nbsp; She is a qualified educator with overseas experience and a guest lecturer in Commercial Law at the University of Auckland.</p>
@@ -95,7 +95,7 @@
 						<p><img class="img-circle" src="http://catalex.icandymedia.co.nz/wp-content/uploads/2014/09/thomas.jpg" alt="thomas" width="201" height="135"></p>
 						<div class="feature-item"><i class="fa  fa-gavel"></i>
 							<h3>Thomas Bloy<br>
-							LLB</h3>
+							<span class="degrees">LLB</span></h3>
 						<p></p></div>
 						<p class="blurb">Thomas specialises in company, commercial, and contract law, but also has expertise in mergers and acquisitions, capital raising, and insolvency.&nbsp;Before going in-house at CataLex, he worked for Simpson Grierson’s corporate advisory and banking litigation teams. He has advised several NZX50 companies and has Court of Appeal litigation experience. Before becoming a lawyer, Thomas was an operations analyst for TOWER Insurance, specialising in system administration, process improvement, operational efficiency, and quality assurance.</p>
 					</div>
@@ -103,7 +103,7 @@
 						<p><img class="img-circle" src="http://catalex.icandymedia.co.nz/wp-content/uploads/2014/09/josh.jpg" alt="josh" width="201" height="135"></p>
 						<div class="feature-item"><i class="fa fa-code"></i>
 							<h3>Josh Gagnon<br>
-							BSc (Hons), BA</h3>
+							<span class="degrees">BSc (Hons), BA</span></h3>
 							<p class="blurb">
 							Josh is CataLex’s Chief Technology Officer. He is a software engineer that has worked in bioinformatics for the University of Otago.&nbsp; Prior to joining CataLex, Josh developed GIS (Geographic Information System) software for an Otago-based company.
 							</p>
