@@ -112,6 +112,14 @@
 			}
 		},
 		{
+			"file": "app/controllers/LandingController.php",
+			"settings":
+			{
+				"buffer_size": 188,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "app/database/migrations/2014_11_18_222127_give_role_default_again.php",
 			"settings":
 			{
@@ -410,8 +418,9 @@
 	],
 	"file_history":
 	[
-		"/Users/josh/catalex_site/app/views/investor.blade.php",
+		"/Users/josh/catalex_site/server.php",
 		"/Users/josh/catalex_site/public/css/style.css",
+		"/Users/josh/catalex_site/app/views/investor.blade.php",
 		"/Users/josh/catalex_site/vendor/laravel/framework/.scrutinizer.yml",
 		"/Users/josh/catalex_site/.gitattributes",
 		"/Users/josh/catalex_site/public/js/npm.js",
@@ -424,7 +433,6 @@
 		"/Users/josh/catalex_site/vendor/predis/predis/examples/ServerSideScripting.php",
 		"/Users/josh/catalex_site/vendor/nikic/php-parser/test/code/parser/scalar/encapsedString.test",
 		"/Users/josh/catalex_site/vendor/laravel/framework/src/Illuminate/Database/SeedServiceProvider.php",
-		"/Users/josh/catalex_site/server.php",
 		"/Users/josh/catalex_site/vendor/predis/predis/lib/Predis/ServerException.php",
 		"/Users/josh/catalex_site/app/controllers/BlogsController.php",
 		"/Users/josh/catalex_site/app/config/database.php",
@@ -631,7 +639,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -647,8 +655,8 @@
 						"selection":
 						[
 							[
-								3457,
-								3457
+								1971,
+								1971
 							]
 						],
 						"settings":
@@ -661,7 +669,7 @@
 						"translation.y": 751.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -692,7 +700,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -723,7 +731,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -753,7 +761,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -782,7 +790,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
@@ -811,7 +819,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
@@ -840,7 +848,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -870,7 +878,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
@@ -886,8 +894,8 @@
 						"selection":
 						[
 							[
-								312,
-								290
+								746,
+								746
 							]
 						],
 						"settings":
@@ -901,11 +909,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 9,
+					"file": "app/controllers/LandingController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
 					"file": "app/database/migrations/2014_11_18_222127_give_role_default_again.php",
 					"semi_transient": true,
 					"settings":
@@ -931,11 +968,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "/Users/josh/nzlawapi/static/js/smoothscroll.js",
 					"semi_transient": false,
 					"settings":
@@ -961,11 +998,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "app/views/blogs/index.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -992,11 +1029,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "app/views/users/login.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1023,11 +1060,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"file": "app/views/users/index.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1054,11 +1091,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 15,
 					"file": "app/views/users/show.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1085,11 +1122,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 16,
 					"file": "composer.json",
 					"semi_transient": false,
 					"settings":
@@ -1114,11 +1151,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 17,
 					"file": "app/config/app.php",
 					"semi_transient": false,
 					"settings":
@@ -1144,11 +1181,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 18,
 					"file": "app/config/packages/ceesvanegmond/minify/config.php",
 					"semi_transient": false,
 					"settings":
@@ -1175,11 +1212,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 19,
 					"file": "app/models/User.php",
 					"semi_transient": false,
 					"settings":
@@ -1205,11 +1242,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 20,
 					"file": "app/models/UserHistory.php",
 					"semi_transient": false,
 					"settings":
@@ -1234,11 +1271,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 21,
 					"file": "app/database/seeds/DatabaseSeeder.php",
 					"semi_transient": false,
 					"settings":
@@ -1264,11 +1301,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 22,
 					"file": "app/database/seeds/BlogsTableSeeder.php",
 					"semi_transient": false,
 					"settings":
@@ -1295,11 +1332,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 23,
 					"file": "app/start/events.php",
 					"semi_transient": false,
 					"settings":
@@ -1324,7 +1361,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 12,
 					"type": "text"
 				}
 			]
@@ -1376,6 +1413,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"landin",
+				"app/controllers/LandingController.php"
+			],
+			[
+				"seed",
+				"app/database/seeds/UserTableSeeder.php"
+			],
 			[
 				".css",
 				"public/css/style.css"
@@ -1463,10 +1508,6 @@
 			[
 				"filter",
 				"app/filters.php"
-			],
-			[
-				"seed",
-				"app/database/seeds/UserTableSeeder.php"
 			],
 			[
 				"master.",

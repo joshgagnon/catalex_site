@@ -43,7 +43,7 @@
 		
 		<div class="section-head text-center">
 			<h2>CataLex | The Legal Catalyst</h2>
-			<p>At CataLex, we aim to re-invent law or, more accurately, how the public interacts with it. We believe that by combining technology and innovative thinking, legal services can be more accessible, cost-effective, understandable, and, most importantly, useful to business. CataLex is developing software to deliver those services to professionals and businesspeople, absent the traditional lawyer-client relationship.</p>
+			<p>At CataLex, we aim to re-invent law or, more accurately, how the public interacts with it. We believe that by combining technology and innovative thinking, legal services can be more accessible, cost-effective, understandable, and, most importantly, useful to business. CataLex is developing software to deliver those services to professionals and businesses, absent the traditional lawyer-client relationship.</p>
 			<hr class="head-separator">
 		</div>
 		
