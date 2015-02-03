@@ -3,39 +3,10 @@
 @parent
 @stop
 @section('content')
-<section class="container-fluid home">
-	<div class="row">
-		<div class="">
-			<div class="col-sm-7 text-center content-right">
-				<!-- start main logo -->
-				<h1 class="logo">
-				<a href="/">
-					{{ HTML::image('images/logo-colourx2.png', 'Calatex')}}
-				</a>
-				</h1>
-				<!-- end main logo -->
-				<div class="big-text">
-					
-					
-					<span>Sometimes change is good</span>
-					
-				</div>
-				
-				
-				<div class="home-buttons">
-					<a href="/investor" class="btn btn-primary btn-lg">Investor Portal</a>
-					<a href="#people" class="btn btn-people btn-lg">About Us</a>
-				</div>
-				<ul class="os">
-					
-					
-					
-				</ul>
-			</div>
-			<div class="col-sm-5">
-			</div>
-		</div>
-	</div>
+@include('components.browser-hero')
+@include('components.navbar')
+<section class="container-fluid banner home">
+	<span class="banner-text">Sometimes change is good</span>
 </section>
 <section id="about" class="about container">
 	
@@ -132,4 +103,3 @@
 </section>
 @endif
 @stop
-

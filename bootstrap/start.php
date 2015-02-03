@@ -26,6 +26,7 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
+	'matt' => array('Neon'),
 	'local' => array('catalex.dnsalias.com'),
 
 ));

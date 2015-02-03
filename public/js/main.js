@@ -7,4 +7,12 @@ $(document).ready(function(){
 		}).trigger('change');
 	}
 
+	if($('.lb-section').length) {
+		$('.lb-section .fade-container').bind('inview', function(event, isInView, visiblePartX, visiblePartY) {
+			if(isInView) {
+				$(this).addClass('fade-in').unbind('inview');
+			}
+		})
+	}
+
 });

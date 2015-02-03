@@ -11,14 +11,17 @@
 |
 */
 
-Route::get('/', 'LandingController@show');
-
+Route::get('/', 'LandingController@index');
+Route::get('law-browser', 'LandingController@lawBrowser');
+Route::get('signup', 'LandingController@signup');
+Route::get('about-us', 'LandingController@aboutUs');
 
 Route::get('investor', 'InvestorController@show');
+
 Route::controller('sessions', 'SessionsController');
+
 Route::resource('users', 'UsersController');
 
 Route::get('files/{fileName}', array('before' => 'auth', 'uses' => 'ReadFileController@read'));
-
 
 Route::resource('blogs', 'BlogsController');

@@ -5,8 +5,7 @@ html {
   min-height: 100%;
 }
 body{
-font-family: Open Sans,sans-serif;
-	font: 13px/26px 'Open Sans', sans-serif;
+	font-family: Ubuntu,sans-serif;
 	font-weight: normal;
 	color: #595757;
 	text-align: center;
@@ -34,56 +33,90 @@ section{
 padding-bottom: 6%;
 }
 
+p a,
+p a:hover,
+p a:active,
+form a,
+form a:hover,
+form a:active {
+	color: #d11820;
+}
+fieldset {
+	background-color: #f9f9f9;
+	border: 3px solid #efefef;
+	border-radius: 6px;
+	padding: 15px 22px;
+	margin-bottom: 25px;
+}
+fieldset h4 {
+	position: relative;
+	margin-bottom: 48px;
+}
+fieldset h4:after {
+	content: '';
+	position: absolute;
+	left: -22px;
+	right: -22px;
+	bottom: -26px;
+	border-bottom: 1px solid #e5eff4;
+}
+
+.navbar {
+	margin: 0;
+	border: 0;
+}
+.navbar section {
+	padding: 0;
+}
+.navbar h1 {
+	margin: 10px 0;
+}
+.navbar-brand {
+	height: auto;
+	padding: 0;
+	margin-right: 89px;
+	margin-top: 29px;
+}
+.navbar-nav > li > a {
+	padding: 102px 9px 4px;
+	font-size: 22px;
+	height: 166px;
+	color: #2c3e50;
+}
+.navbar-nav > li.active > a {
+	color: #ffffff;
+	background-color: #d11820;
+}
+
+section.banner {
+	position: relative;
+	padding: 48% 0 0 0;
+	background-color: transparent;
+	background-size: cover;
+}
+.banner-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 20%;
+	font-size: 66px;
+}
+.home.banner {
+	background-image: url('/images/plant3_sml.jpg');
+	background-position: center bottom;
+}
+.home .banner-text {
+	margin: 34.8% 0 0 8.2%;
+	color: #000000;
+}
+
 .section-head p, .section-head ul {
 font-weight: 100;
 text-align: justify;
 }
 
-.home{
-	background: url(/images/plant3_sml.jpg) center center;
-	background-size: cover;
-	text-align:center;
-	background-position-x: 86%;
-}
-
-.home .big-text{
-	font-size: 46px;
-font-weight: 400;
-color: #000000;
-line-height: 58px;
-}
-
-.home h1.logo{
-	margin-bottom: 60px;
-}
-.home h1.logo img{
-max-width: 70%;
-}
-.navbar{
-	display:none;
-}
-
- .home-buttons .btn-primary{
-	background-color: #e2443a;
-	border:1px solid #e2443a;
-}
-
-.home-buttons .btn {
-	font-weight: 400;
-margin-bottom: 10px;
--webkit-border-radius: 3px;
--moz-border-radius: 3px;
--ms-border-radius: 3px;
--o-border-radius: 3px;
--webkit-transition: all 0.3s;
--moz-transition: all 0.3s;
--o-transition: all 0.3s;
-transition: all 0.3s;
-background-image:none;
-font-weight: 300;
-color:#fff;
-text-shadow:none;
-box-shadow: none;
+.highlight {
+	color: #d11820;
 }
 
 .btn-lg{
@@ -93,9 +126,27 @@ margin: 20px;
 width:256px;
 }
 
-.btn.btn-people{
-	background-color: #F26332;
-border: 1px solid #FF5349;
+.btn {
+	transition: background-color 400ms;
+}
+
+.btn-primary {
+	background-color: #e74c3c;
+	border-color: #e74c3c;
+}
+.btn-primary:hover,
+.btn-primary:active {
+	background-color: #c74234;
+	border-color: #e74c3c;
+}
+.btn-default {
+	background-color: #f26735;
+	border-color: #f26735;
+}
+.btn-default:hover,
+.btn-default:active {
+	background-color: #d95d30;
+	border-color: #f26735;
 }
 
 .btn-lg:hover{
@@ -105,6 +156,215 @@ border: 1px solid #FF5349;
 .home-buttons{
 	margin-top: 60px;
 }
+
+.browser-hero {
+	background: #a5161d url('/images/hero-bg.png') no-repeat center top;
+	color: #ffffff;
+}
+.browser-hero section {
+	padding: 68px 15px 92px;
+}
+.browser-hero h1 {
+	margin-bottom: 50px;
+}
+.browser-hero h2 {
+	font-size: 50px;
+	margin-bottom: 8px;
+	color: inherit;
+}
+.browser-hero .btn {
+	font-size: 22px;
+	width: 222px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	margin: 0 16px;
+	color: inherit;
+}
+.browser-hero .slogan {
+	font-size: 30px;
+	margin-bottom: 62px;
+}
+
+/* About Us */
+
+.about.banner {
+	background-image: url('/images/road_sml.jpg');
+	background-position: center center;
+}
+.about.banner .banner-text {
+	color: #ffffff;
+	font-size: 36px;
+}
+.banner .about-text-1 {
+	margin: 16.5% 0 0 48%;
+}
+.banner .about-text-2 {
+	margin: 19.2% 0 0 52%;
+}
+section.team {
+	padding-top: 20px;
+}
+.team h2 {
+	margin: 60px 0;
+}
+.team h3 {
+	line-height: 1.4;
+	font-size: 20px;
+	margin: 30px 0;
+}
+.team .image-container {
+	position: relative;
+}
+.team img {
+	width: 100%;
+	height: auto;
+	border-radius: 7px;
+}
+.team p {
+	font-size: 17px;
+}
+
+/* Law Browser Features */
+
+.lb-section section {
+	padding: 135px 15px;
+}
+.lb-section h3,
+.lb-section p {
+	text-align: left;
+}
+.lb-section h2 {
+	font-size: 50px;
+	color: #d11820;
+}
+.lb-section h3 {
+	font-size: 50px;
+	color: #231f20;
+	margin: 0 0 10px;
+}
+.lb-section p {
+	font-size: 18px;
+	color: #231f20;
+}
+.lb-section a {
+	color: #d11820;
+}
+.lb-odd {
+	background-color: #efefef;
+}
+.lb-even .fa {
+	color: #d11820;
+}
+.lb-odd .fa {
+	color: #231f20;
+}
+.lb-section .fa-search {
+	font-size: 170px;
+}
+.lb-section .fa-book {
+	font-size: 174px;
+}
+.lb-section .fa-bookmark {
+	font-size: 196px;
+}
+.lb-section .fa-arrows-alt {
+	font-size: 180px;
+}
+.lb-section .fa-list-ol {
+	font-size: 166px;
+}
+.lb-section .fa-cloud {
+	font-size: 154px;
+}
+.icon-outer {
+	position: absolute;
+	height: 100%;
+}
+.icon-inner {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.icon-pad {
+	padding-left: 186px;
+}
+
+.lb-odd + .lb-even:before,
+.lb-even + .lb-odd:before {
+	content: '';
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: calc(50% - 54px);
+	border-style: solid;
+	border-width: 55px 54px 0 54px;
+}
+.lb-even + .lb-odd:before {
+	border-color: #ffffff transparent transparent transparent;
+}
+.lb-odd + .lb-even:before {
+	border-color: #efefef transparent transparent transparent;
+}
+
+.fade-container {
+	opacity: 0;
+	transition-property: opacity, margin-left, margin-right;
+	transition-duration: 1800ms;
+	transition-delay: 300ms;
+}
+.lb-odd .fade-container {
+	margin-left: -200px;
+	margin-right: 200px;
+}
+.lb-even .fade-container {
+	margin-left: 200px;
+	margin-right: -200px;
+}
+.fade-container.fade-in {
+	opacity: 1;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/* Signup */
+
+.login-banner {
+	background-color: #efefef;
+}
+.login-banner section {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.login-banner .slogan,
+.login-banner .member {
+	font-size: 22px;
+	color: #d11820;
+}
+.btn.signup {
+	font-size: 17px;
+	width: 185px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.login-banner .signup {
+	margin: 55px 0 11px;
+}
+.trial-info {
+	margin-bottom: 30px;
+}
+.trial-info h2 {
+	padding-left: 42px;
+}
+.trial-info p {
+	font-size: 18px;
+	padding: 0 42px;
+}
+.signup-with-message {
+	margin: 16px 0 10px;
+	font-weight: bold;
+}
+
+/* Login */
 
 .login,
 .quote{
@@ -167,7 +427,7 @@ background-color: #f5f5f5;
 }
 .footer{
 	background-color:#141414;
-	padding-top:60px;
+	padding-top:80px;
 	padding-bottom:60px;
 }
 .footer .footer-links li{

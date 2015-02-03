@@ -17,7 +17,8 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-        {{ Minify::stylesheet(array('/css/bootstrap.min.css', '/css/style.css')) }}
+        <link href='//brick.a.ssl.fastly.net/Ubuntu:400,400i,700' rel='stylesheet' type='text/css'>
+        {{ Minify::stylesheet(array('/css/bootstrap.css', '/css/font-awesome.css', '/css/style.css')) }}
     </head>
 
     <body>
@@ -65,6 +66,6 @@
 </footer>
 
         <!-- Scripts are placed here -->
-        {{ Minify::javascript(array('/js/jquery-1.11.1.min.js', '/js/bootstrap.min.js', '/js/main.js', '/js/smoothscroll.js')) }}
+        {{ Minify::javascript(array('/js/jquery-1.11.1.min.js', '/js/jquery.inview.min.js', '/js/bootstrap.min.js', '/js/main.js', '/js/smoothscroll.js')) }}
     </body>
 </html>
