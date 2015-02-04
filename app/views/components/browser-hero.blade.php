@@ -7,7 +7,7 @@
 				</h1>
 				<h2>Find law faster</h2>
 				<div class="slogan">The better way to view legislation and cases.</div>
-				<a class="btn btn-primary" href="#">Start free trial</a>
+				<a class="btn btn-primary" href="/signup">Start free trial</a>
 				@if($location !== '/law-browser')
 					<a class="btn btn-default" href="/law-browser">Features</a>
 				@endif

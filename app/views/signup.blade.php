@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title')
-@parent - Signup
+@parent - Sign Up
 @stop
 @section('content')
 @include('components.navbar')
@@ -54,6 +54,10 @@
 								<input type="text" class="form-control" id="lastname" name="lastname">
 							</div>
 						</div>
+					</div>
+					<div class="form-group">
+						<label for="business">Business</label>
+						<input type="text" class="form-control" id="business" name="business">
 					</div>
 					<div class="form-group">
 						<label for="city">City</label>

@@ -25,9 +25,16 @@ class LandingController extends BaseController {
 		return View::make('signup');
 	}
 
-	public function aboutUs()
+	public function news()
 	{
-		return View::make('about-us');
+		$news = Blog::orderBy('id', 'DESC')->get();
+		// Split news titles on hypen
+		foreach($news as &$entry) {
+			$t = explode(' - ', $entry->title);
+			$entry->title = $t[0];
+			$entry->source = $t[1] ?: '';
+		}
+		return View::make('news', compact('news'));
 	}
 
 }

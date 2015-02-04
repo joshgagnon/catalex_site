@@ -14,7 +14,7 @@ body{
 h2 {
 font-size: 2.5em;
 line-height: 46px;
-font-weight: 100;
+font-weight: 400;
 -webkit-text-stroke: 0.01em;
 margin-bottom: 20px;
 color:#000;
@@ -33,6 +33,13 @@ section{
 padding-bottom: 6%;
 }
 
+p {
+	font-weight: 300;
+}
+
+.news-entries a,
+.news-entries a:hover,
+.news-entries a:active,
 p a,
 p a:hover,
 p a:active,
@@ -224,6 +231,41 @@ section.team {
 	font-size: 17px;
 }
 
+/* News */
+
+.news.banner {
+	background-image: url('/images/remember_sml.jpg');
+	background-position: center center;
+	position: relative;
+}
+.news .banner-text {
+	top: auto;
+	left: auto;
+	bottom: 3%;
+	right: 2.5%;
+	margin: 0;
+	text-align: left;
+	font-size: 36px;
+	color: #231f20;
+}
+
+.news-entries {
+	font-family: 'Helvetica Neue', Calibri, sans-serif;
+	text-align: left;
+}
+.news-entries h3 {
+	font-size: 35px;
+	font-weight: 400;
+}
+.news-entries h4 {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.news-section section {
+	padding: 60px 15px;
+}
+
 /* Law Browser Features */
 
 .lb-section section {
@@ -249,6 +291,7 @@ section.team {
 .lb-section a {
 	color: #d11820;
 }
+.news-odd,
 .lb-odd {
 	background-color: #efefef;
 }
@@ -289,6 +332,8 @@ section.team {
 	padding-left: 186px;
 }
 
+.news-odd + .news-even:before,
+.news-even + .news-odd:before,
 .lb-odd + .lb-even:before,
 .lb-even + .lb-odd:before {
 	content: '';
@@ -299,9 +344,11 @@ section.team {
 	border-style: solid;
 	border-width: 55px 54px 0 54px;
 }
+.news-even + .news-odd:before,
 .lb-even + .lb-odd:before {
 	border-color: #ffffff transparent transparent transparent;
 }
+.news-odd + .news-even:before,
 .lb-odd + .lb-even:before {
 	border-color: #efefef transparent transparent transparent;
 }

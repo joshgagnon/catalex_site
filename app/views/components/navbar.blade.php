@@ -6,14 +6,13 @@
       </a>
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-links">
-			<ul class="nav navbar-nav">
+			<ul class="nav navbar-nav navbar-right">
 				@foreach([
 					'/' => 'Home',
-					'/about-us' => 'About Us',
 					'/news' => 'News',
 					'/law-browser' => 'Law Browser',
 					'/investor' => 'Investor Portal',
-					'/signup' => 'Signup/Login',
+					'/signup' => 'Sign Up / Login',
 				] as $href => $title)
 					<li class="{{ $location === $href ? 'active' : '' }}"><a href="{{ $href }}">{{ $title }}</a></li>
 				@endforeach

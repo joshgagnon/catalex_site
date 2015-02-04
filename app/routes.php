@@ -14,7 +14,7 @@
 Route::get('/', 'LandingController@index');
 Route::get('law-browser', 'LandingController@lawBrowser');
 Route::get('signup', 'LandingController@signup');
-Route::get('about-us', 'LandingController@aboutUs');
+Route::get('news', 'LandingController@news');
 
 Route::get('investor', 'InvestorController@show');
 
