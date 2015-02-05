@@ -580,3 +580,93 @@ h3 .degrees{
 	}
 }
 
+/* Tablet */
+@media only screen and (max-device-width: 1024px) {
+	.navbar-brand {
+		width: 175px;
+	}
+	.navbar-brand img {
+		margin-left: 15px;
+		width: 100%;
+	}
+	.navbar-nav > li > a {
+		height: 110px;
+		padding-top: 60px;
+		font-size: 16px;
+	}
+	.banner-text {
+		font-size: 33px;
+	}
+	.news .banner-text,
+	.about.banner .banner-text {
+		font-size: 26px;
+	}
+	.banner .about-text-1 {
+		margin: 18.5% 0 0 46%;
+	}
+	.banner .about-text-2 {
+		margin: 23% 0 0 48.5%;
+	}
+}
+
+/* Tablet Portrait */
+@media only screen and (max-device-width: 768px) {
+	.team .image-container {
+		float: left;
+		margin: 0 20px 5px 0;
+	}
+	.news .banner-text {
+		font-size: 22px;
+	}
+}
+
+/* Phone */
+@media only screen and (max-device-width: 767px) {
+	.browser-hero {
+		background-color: #ba1a21;
+	}
+	.browser-hero .btn {
+		margin-bottom: 12px;
+	}
+	.browser-hero .container {
+		padding-top: 20px;
+		padding-bottom: 0;
+	}
+	.home.banner .banner-text {
+		font-size: 20px;
+		margin: 30px 0 0 20px;
+	}
+	.about.banner .banner-text {
+		font-size: 20px;
+	}
+	.lb-section .fa {
+		font-size: 130px !important;
+	}
+	.icon-pad {
+		padding-left: 152px;
+	}
+	.news .banner-text {
+		background-color: rgba(255,255,255,0.40);
+	}
+	.lb-section h3 {
+		font-size: 28px;
+	}
+	.icon-bar {
+		background-color: #231f20;
+	}
+	.navbar-toggle {
+		margin-top: 13px;
+	}
+	.navbar-brand {
+		margin: 0;
+		padding: 5px;
+	}
+	.navbar-nav > li > a {
+		height: auto;
+		padding: 12px 0;
+	}
+	.trial-info h2,
+	.trial-info p {
+		padding: 0;
+	}
+}
