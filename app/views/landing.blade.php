@@ -38,7 +38,7 @@
 	<div class="row text-left">
 		<div class="col-xs-12 col-sm-4 blurb-col">
 			<div class="image-container">
-				<img src="http://catalex.icandymedia.co.nz/wp-content/uploads/2014/09/tamina.jpg" alt="Tamina Cunningham-Adams">
+				<img src="/images/tamina.jpg" alt="Tamina Cunningham-Adams">
 			</div>
 			<h3><span class="highlight">Tamina Cunningham-Adams</span><br>LLB (Hons), BA, B Ed (Tchg)</h3>
 			<p>
@@ -53,7 +53,7 @@
 		</div>
 		<div class="col-xs-12 col-sm-4 blurb-col">
 			<div class="image-container">
-				<img src="http://catalex.icandymedia.co.nz/wp-content/uploads/2014/09/thomas.jpg" alt="Thomas Bloy">
+				<img src="/images/thomas.jpg" alt="Thomas Bloy">
 			</div>
 			<h3><span class="highlight">Thomas Bloy</span><br>LLB</h3>
 			<p>
@@ -62,7 +62,7 @@
 		</div>
 		<div class="col-xs-12 col-sm-4 blurb-col">
 			<div class="image-container">
-				<img src="http://catalex.icandymedia.co.nz/wp-content/uploads/2014/09/josh.jpg" alt="Josh Gagnon">
+				<img src="/images/josh.jpg" alt="Josh Gagnon">
 			</div>
 			<h3><span class="highlight">Josh Gagnon</span><br>BSc (Hons), BA</h3>
 			<p>
