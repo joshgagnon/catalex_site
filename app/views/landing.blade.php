@@ -80,7 +80,7 @@
 </section>
 @if ($blogs->count())
 <section class="blog ">
-	<h2>News</h2>
+	<h2><a href="/news" >News</a></h2>
 	<hr class="head-separator">
 	<div class="container">
 		@foreach ($blogs as $blog)
