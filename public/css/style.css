@@ -165,7 +165,7 @@ width:256px;
 }
 
 .browser-hero {
-	background: #a5161d url('/images/hero-bg.png') no-repeat center top;
+	background: #9b131b url('/images/hero-bg.png') no-repeat center top;
 	color: #ffffff;
 }
 .browser-hero section {
@@ -249,6 +249,9 @@ section.team {
 	color: #231f20;
 }
 
+section.news + h2 {
+	margin-bottom: -25px;
+}
 .news-entries {
 	font-family: 'Helvetica Neue', Calibri, sans-serif;
 	text-align: left;
@@ -582,6 +585,9 @@ h3 .degrees{
 
 /* Tablet */
 @media only screen and (max-device-width: 1024px) {
+	.container {
+		max-width: 100%;
+	}
 	.navbar-brand {
 		width: 175px;
 	}
@@ -594,6 +600,9 @@ h3 .degrees{
 		padding-top: 60px;
 		font-size: 16px;
 	}
+	.navbar-collapse {
+		max-width: 100%;
+	}
 	.banner-text {
 		font-size: 33px;
 	}
@@ -605,7 +614,11 @@ h3 .degrees{
 		margin: 18.5% 0 0 46%;
 	}
 	.banner .about-text-2 {
-		margin: 23% 0 0 48.5%;
+		margin: 23.2% 0 0 48.5%;
+	}
+	.lb-section section {
+		padding-top: 80px;
+		padding-bottom: 80px;
 	}
 }
 
@@ -622,8 +635,17 @@ h3 .degrees{
 
 /* Phone */
 @media only screen and (max-device-width: 767px) {
+	h2 {
+		font-size: 2em;
+	}
+	.navbar-collapse {
+		margin: 0 !important;
+	}
+	.quote {
+		height: 600px;
+	}
 	.browser-hero {
-		background-color: #ba1a21;
+		background-color: #b3161f;
 	}
 	.browser-hero .btn {
 		margin-bottom: 12px;
@@ -636,8 +658,15 @@ h3 .degrees{
 		font-size: 20px;
 		margin: 30px 0 0 20px;
 	}
+	.team h2 {
+		margin: 22px 0;
+	}
 	.about.banner .banner-text {
 		font-size: 20px;
+		line-height: 0.9;
+	}
+	.blog .container {
+		padding-bottom: 30px;
 	}
 	.lb-section .fa {
 		font-size: 130px !important;
@@ -647,7 +676,9 @@ h3 .degrees{
 	}
 	.news .banner-text {
 		background-color: rgba(255,255,255,0.40);
+		text-align: right;
 	}
+	.news-section h3,
 	.lb-section h3 {
 		font-size: 28px;
 	}
@@ -668,5 +699,13 @@ h3 .degrees{
 	.trial-info h2,
 	.trial-info p {
 		padding: 0;
+	}
+}
+
+/* Tiny phone */
+@media only screen and (max-device-width: 400px) {
+	.team .image-container {
+		float: none;
+		margin: 5px 10px;
 	}
 }

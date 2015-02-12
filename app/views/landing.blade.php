@@ -36,7 +36,7 @@
 		</div>
 	</div>
 	<div class="row text-left">
-		<div class="col-xs-12 col-md-4 blurb-col">
+		<div class="col-xs-12 col-sm-4 blurb-col">
 			<div class="image-container">
 				<img src="http://catalex.icandymedia.co.nz/wp-content/uploads/2014/09/tamina.jpg" alt="Tamina Cunningham-Adams">
 			</div>
@@ -51,7 +51,7 @@
 				Tamina is the recipient of several academic prizes, including being the inaugural recipient of the Judge Karina Williams Prize in Law.
 			</p>
 		</div>
-		<div class="col-xs-12 col-md-4 blurb-col">
+		<div class="col-xs-12 col-sm-4 blurb-col">
 			<div class="image-container">
 				<img src="http://catalex.icandymedia.co.nz/wp-content/uploads/2014/09/thomas.jpg" alt="Thomas Bloy">
 			</div>
@@ -60,7 +60,7 @@
 				Thomas specialises in company, commercial, and contract law, but also has expertise in mergers and acquisitions, capital raising, and insolvency.&nbsp;Before going in-house at CataLex, he worked for Simpson Grierson’s corporate advisory and banking litigation teams. He has advised several NZX50 companies and has Court of Appeal litigation experience. Before becoming a lawyer, Thomas was an operations analyst for TOWER Insurance, specialising in system administration, process improvement, operational efficiency, and quality assurance.
 			</p>
 		</div>
-		<div class="col-xs-12 col-md-4 blurb-col">
+		<div class="col-xs-12 col-sm-4 blurb-col">
 			<div class="image-container">
 				<img src="http://catalex.icandymedia.co.nz/wp-content/uploads/2014/09/josh.jpg" alt="Josh Gagnon">
 			</div>
