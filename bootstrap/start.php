@@ -28,6 +28,7 @@ $env = $app->detectEnvironment(array(
 
 	'matt' => array('Neon'),
 	'local' => array('catalex.dnsalias.com'),
+	'production' => array('catalex.nz'),
 
 ));
 
