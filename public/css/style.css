@@ -592,7 +592,7 @@ h3 .degrees{
 	}
 }
 
-@media only screen and (max-device-width: 1199px) {
+@media only screen and (max-width: 1199px) {
 	.navbar-brand {
 		width: 175px;
 	}
@@ -608,7 +608,7 @@ h3 .degrees{
 }
 
 /* Tablet */
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 	.container {
 		max-width: 100%;
 	}
@@ -635,7 +635,7 @@ h3 .degrees{
 }
 
 /* Tablet Portrait */
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-width: 768px) {
 	.team .image-container {
 		float: left;
 		margin: 0 20px 5px 0;
@@ -646,7 +646,7 @@ h3 .degrees{
 }
 
 /* Phone */
-@media only screen and (max-device-width: 767px) {
+@media only screen and (max-width: 767px) {
 	body {
 		margin-bottom: 200px;
 	}
@@ -724,7 +724,7 @@ h3 .degrees{
 }
 
 /* Tiny phone */
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-width: 400px) {
 	.team .image-container {
 		float: none;
 		margin: 5px 10px;
