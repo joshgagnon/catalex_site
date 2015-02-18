@@ -591,11 +591,7 @@ h3 .degrees{
 	}
 }
 
-/* Tablet */
-@media only screen and (max-device-width: 1024px) {
-	.container {
-		max-width: 100%;
-	}
+@media only screen and (max-device-width: 1199px) {
 	.navbar-brand {
 		width: 175px;
 	}
@@ -607,6 +603,13 @@ h3 .degrees{
 		height: 110px;
 		padding-top: 60px;
 		font-size: 16px;
+	}
+}
+
+/* Tablet */
+@media only screen and (max-device-width: 1024px) {
+	.container {
+		max-width: 100%;
 	}
 	.navbar-collapse {
 		max-width: 100%;
@@ -643,10 +646,19 @@ h3 .degrees{
 
 /* Phone */
 @media only screen and (max-device-width: 767px) {
+	body {
+		margin-bottom: 200px;
+	}
+	.footer {
+		height: 200px;
+	}
 	h2 {
 		font-size: 2em;
 	}
 	.navbar-collapse {
+		margin: 0 !important;
+	}
+	.navbar-header {
 		margin: 0 !important;
 	}
 	.quote {
