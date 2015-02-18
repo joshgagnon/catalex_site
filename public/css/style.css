@@ -282,6 +282,7 @@ section.news + h2 {
 
 .lb-section section {
 	padding: 135px 15px;
+	overflow: hidden;
 }
 .lb-section h3,
 .lb-section p {
