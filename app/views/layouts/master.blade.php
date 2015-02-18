@@ -33,36 +33,31 @@
 
 <footer id="footer" class="footer">
     <div class="container">
-        <div class="padding-b5">
+        <!--div>
             <div class="col-sm-12">
                 <ul class="social-icons text-center">
                 </ul>
             </div>
-        </div>
-        <div class="nav-links">
-            <div class="col-sm-12">
+        </div-->
+        <p class="copyright">© Copyright {{ date('Y') }} - CataLex Limited. All rights reserved.</p>
+        <p class="nav-links">
                 <a href="/">Home</a>
                 <a href="/investor">Investor Portal</a>
                 @if(Auth::user() && Auth::user()->role=='admin')
                     {{ HTML::link('blogs', 'Law Blog') }}
                     {{ HTML::link('users', 'Users') }}
-                 @endif
+                @endif
                 @if(!Auth::check())
                     {{ HTML::link('sessions/login', 'Login') }}
                 @else
                     {{ HTML::link('sessions/logout', 'Logout') }}
                 @endif
-
-
-             </div>
+                <a href="//users.catalex.nz/customeragreement">Customer Agreement</a>
+                <a href="//users.catalex.nz/privacypolicy">Privacy Policy</a>
+                <a href="//users.catalex.nz/termsofuse">Law Browser Terms of Use</a>
         </div>
-        <div class="">
-            <div class="col-sm-12">
-                <p class="copyright">©Copyright 2014 - CataLex Limited. All rights reserved.</p>
-                <p>Contact: P: C/- Kanu Jeram Chartered Accountant Limited, 112 Kitchener Road, Milford, Auckland, 0620, New Zealand</p>
-                <p>E: <a href="mailto:mail@catalex.nz">mail@catalex.nz</a> &nbsp; M: +64 274 538 552</p>
-            </div>
-        </div>
+        <p>P: C/- Kanu Jeram Chartered Accountant Limited, 112 Kitchener Road, Milford, Auckland, 0620, New Zealand</p>
+        <p>E: <a href="mailto:mail@catalex.nz">mail@catalex.nz</a> &nbsp; M: +64 274 538 552 &nbsp; Fax: +64 09 929 3332 </p>
     </div>
 </footer>
 

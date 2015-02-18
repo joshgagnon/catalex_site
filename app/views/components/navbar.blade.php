@@ -18,7 +18,7 @@
 					'/news' => 'News',
 					'/law-browser' => 'Law Browser',
 					'/investor' => 'Investor Portal',
-					'/signup' => 'Sign Up / Login',
+					'//users.catalex.nz/auth/register' => 'Sign Up / Login',
 				] as $href => $title)
 					<li class="{{ $location === $href ? 'active' : '' }}"><a href="{{ $href }}">{{ $title }}</a></li>
 				@endforeach
