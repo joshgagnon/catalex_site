@@ -282,6 +282,7 @@ section.news + h2 {
 
 .lb-section section {
 	padding: 135px 15px;
+	overflow: hidden;
 }
 .lb-section h3,
 .lb-section p {
@@ -591,11 +592,7 @@ h3 .degrees{
 	}
 }
 
-/* Tablet */
-@media only screen and (max-device-width: 1024px) {
-	.container {
-		max-width: 100%;
-	}
+@media only screen and (max-width: 1199px) {
 	.navbar-brand {
 		width: 175px;
 	}
@@ -607,6 +604,13 @@ h3 .degrees{
 		height: 110px;
 		padding-top: 60px;
 		font-size: 16px;
+	}
+}
+
+/* Tablet */
+@media only screen and (max-width: 1024px) {
+	.container {
+		max-width: 100%;
 	}
 	.navbar-collapse {
 		max-width: 100%;
@@ -631,7 +635,7 @@ h3 .degrees{
 }
 
 /* Tablet Portrait */
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-width: 768px) {
 	.team .image-container {
 		float: left;
 		margin: 0 20px 5px 0;
@@ -642,11 +646,20 @@ h3 .degrees{
 }
 
 /* Phone */
-@media only screen and (max-device-width: 767px) {
+@media only screen and (max-width: 767px) {
+	body {
+		margin-bottom: 200px;
+	}
+	.footer {
+		height: 200px;
+	}
 	h2 {
 		font-size: 2em;
 	}
 	.navbar-collapse {
+		margin: 0 !important;
+	}
+	.navbar-header {
 		margin: 0 !important;
 	}
 	.quote {
@@ -711,7 +724,7 @@ h3 .degrees{
 }
 
 /* Tiny phone */
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-width: 400px) {
 	.team .image-container {
 		float: none;
 		margin: 5px 10px;
