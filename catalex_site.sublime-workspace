@@ -51,7 +51,7 @@
 			"file": "public/css/style.css",
 			"settings":
 			{
-				"buffer_size": 11049,
+				"buffer_size": 11173,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "app/views/layouts/master.blade.php",
 			"settings":
 			{
-				"buffer_size": 3568,
+				"buffer_size": 3657,
 				"line_ending": "Unix"
 			}
 		},
@@ -411,11 +411,11 @@
 	],
 	"file_history":
 	[
+		"/Users/josh/catalex_site/vendor/nesbot/carbon/tests/SubTest.php",
 		"/Users/josh/catalex_site/vendor/monolog/monolog/src/Monolog/Handler/AbstractSyslogHandler.php",
 		"/Users/josh/catalex_site/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ActivationStrategyInterface.php",
 		"/Users/josh/catalex_site/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/DependencyInjection/AddClassesToCachePass.php",
 		"/Users/josh/catalex_site/vendor/composer/autoload_classmap.php",
-		"/Users/josh/catalex_site/vendor/nesbot/carbon/tests/SubTest.php",
 		"/Users/josh/catalex_site/public/css/style.css",
 		"/Users/josh/catalex_site/app/controllers/ReadFileController.php",
 		"/Users/josh/catalex_site/app/views/layouts/master.blade.php",
@@ -633,7 +633,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -673,15 +673,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11049,
+						"buffer_size": 11173,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								428,
-								428
+								2244,
+								2244
 							]
 						],
 						"settings":
@@ -689,11 +689,11 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 1628.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -702,15 +702,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3568,
+						"buffer_size": 3657,
 						"regions":
 						{
+							"TagLint":
+							{
+								"flags": 2356,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										2949,
+										2952
+									]
+								],
+								"scope": "variable.parameter"
+							}
 						},
 						"selection":
 						[
 							[
-								3091,
-								3091
+								1631,
+								1631
 							]
 						],
 						"settings":
@@ -724,7 +737,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{

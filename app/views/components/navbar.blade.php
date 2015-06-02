@@ -16,7 +16,7 @@
 				@foreach([
 					'/' => 'Home',
 					'/news' => 'News',
-					'/law-browser' => 'Law Browser',
+					'/law-browser' => 'Find Law Faster',
 					'/investor' => 'Investor Portal',
 					'//users.catalex.nz/auth/register' => 'Sign Up / Login',
 				] as $href => $title)

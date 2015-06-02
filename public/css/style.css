@@ -237,7 +237,7 @@ section.team {
 	border-radius: 7px;
 }
 .team p {
-	font-size: 17px;
+	font-size: 16px;
 }
 
 /* News */
@@ -332,6 +332,25 @@ section.news + h2 {
 .lb-section .fa-cloud {
 	font-size: 154px;
 }
+.lb-section .fa-crosshairs {
+	font-size: 154px;
+}
+.lb-section .fa-columns {
+	font-size: 154px;
+}
+.lb-section .fa-floppy-o {
+	font-size: 154px;
+}
+.lb-section .fa-print {
+	font-size: 154px;
+}
+.lb-section .fa-share-alt {
+	font-size: 154px;
+}
+.lb-section .fa-file-pdf-o {
+	font-size: 154px;
+}
+
 .icon-outer {
 	position: absolute;
 	height: 100%;

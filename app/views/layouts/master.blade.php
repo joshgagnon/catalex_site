@@ -57,7 +57,7 @@
                 <a href="//users.catalex.nz/termsofuse">Law Browser Terms of Use</a>
         </div>
         <p>P: C/- Kanu Jeram Chartered Accountant Limited, 112 Kitchener Road, Milford, Auckland, 0620, New Zealand</p>
-        <p>E: <a href="mailto:mail@catalex.nz">mail@catalex.nz</a> &nbsp; M: +64 274 538 552 &nbsp; Fax: +64 09 929 3332 </p>
+        <p>E: <a href="mailto:mail@catalex.nz">mail@catalex.nz</a> &nbsp; M: +64 274 538 552 </p>
     </div>
 </footer>
 
