@@ -67,7 +67,7 @@
 					</div>
 					<div class="icon-pad">
 						<h3>References</h3>
-						<p>Find every piece of legislation that refers to what you are currently viewing, from our database of over half a million analyzed links.</p>
+						<p>Find every piece of legislation that refers to what you are currently viewing, from our database of over half a million analysed links.</p>
 					</div>
 				</div>
 				<div class="hidden-xs col-md-5">
@@ -154,7 +154,7 @@
 					</div>
 					<div class="icon-pad">
 <h3>Your Print Document</h3>
-<p>Add items, including definitions, references lists, focus extracts, or whole sections to your custom print document.  Use your browsers print functionality to create clean, concise document, containing only the things relevant to you.</p>
+<p>Add items, including definitions, references lists, focus extracts, or whole sections to your custom print document.  Use your browser's print functionality to create clean, concise document, containing only the things relevant to you.</p>
 					</div>
 				</div>
 				<div class="hidden-xs col-md-5">
