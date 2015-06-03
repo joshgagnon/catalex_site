@@ -22,8 +22,8 @@
 					</div>
 					<div class="icon-pad">
 						<h3>New Zealand Law</h3>
-						<p>Search or browse New Zealand legislation, including Acts of Parliament, legislative instruments, regulations, bills and SOPs, reproduced from the Parliamentary Counsel’s online legislation database at <a href="www.legislation.govt.nz">www.legislation.govt.nz</a>, updated nightly.</p>
-						<p>New Zealand High Court, Court of Appeal, and Supreme Court case law from the Ministry of Justice’s <a href="https://forms.justice.govt.nz/jdo/Introduction.jsp">Judicial Decisions Online database</a> will be added to Law Browser by the end of 2015 at no additional charge.
+						<p>Search or browse New Zealand legislation, reproduced from the Parliamentary Counsel’s <a href="www.legislation.govt.nz">online legislation database</a>, updated nightly.</p>
+						<p>New Zealand High Court, Court of Appeal, and Supreme Court case law from the Ministry of Justice’s <a href="https://forms.justice.govt.nz/jdo/Introduction.jsp">Judicial Decisions Online database</a> will be added by the end of 2015 at no additional charge.
 					</div>
 				</div>
 				<div class="hidden-xs col-md-5">
@@ -47,7 +47,7 @@
 					<div class="icon-pad">
 						<h3>Definitions</h3>
 						<p>
-							Law Browser recognises the use of defined terms in legislation.  Whether they are valid only for specific sections or inherited from a principal Act, we provide the ability to get relevant definition for over 70,000 words.
+							Law Browser recognises the use of defined terms in legislation, even if a defined term only applies to a specific section or is inherited from the principal Act.
 						</p>
 					</div>
 				</div>
@@ -66,7 +66,7 @@
 						</div>
 					</div>
 					<div class="icon-pad">
-						<h3>Cross-references</h3>
+						<h3>References</h3>
 						<p>Find every piece of legislation that refers to what you are currently viewing, from our database of over half a million analyzed links.</p>
 					</div>
 				</div>
@@ -90,7 +90,7 @@
 					</div>
 					<div class="icon-pad">
 						<h3>Focus</h3>
-						<p>Focus allows you see a custom extract from a piece of legislation, be it a single item such as a part, schedule, section, or sub-section of legislation, or ranges of these items.  Get 'The Companies Act 1993 sections 2(3)(a), 35, 100-108' in one neatly formatted document.</p>
+						<p>Focus allows you see a custom extract from a piece of legislation, be it a single item such as a part, schedule, section, or sub-section of legislation, or ranges of these items.  Get extracts such as 'The Companies Act 1993 sections 2(3)(a), 35, 100-108' in one neatly formatted document.</p>
 					</div>
 				</div>
 			</div>
@@ -109,7 +109,7 @@
 					</div>
 					<div class="icon-pad">
 						<h3>Columns</h3>
-						<p>Columned mode allows you to view and compare multiple documents at the same time.</p>
+						<p>Columns allows you to view and compare multiple documents at the same time.</p>
 					</div>
 				</div>
 				<div class="hidden-xs col-md-5">
