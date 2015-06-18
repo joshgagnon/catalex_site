@@ -53,12 +53,6 @@ Thomas co-founded and is managing director of CataLex.  He came up with the idea
 			<p class="blurb">
 Tamina is a co-founder and director of CataLex.  She is also principal of Evolution Lawyers Limited, a practising liquidator of complex corporate assignments, and CEO of insolvency firm Fisher White &amp; Associates.  Before starting CataLex, Tamina worked as a banking &amp; finance litigator for a top-tier law firm.  She is a qualified teacher, a guest lecturer in commercial law for the University of Auckland, and was featured NZ Lawyer's 2014 Hotlist of 38 New Zealand lawyers changing the <a href="http://www.nzlawyermagazine.co.nz/files/file/special-report/NZL6.1_Hotlist2014.pdf" target="_blank">legal industry</a>.
 			</p>
-			<p class="blurb">
-				NZ Lawyer Magazine recently featured Tamina in its 2014 Lawyer Hotlist of 38 New Zealand lawyers changing the <a href="http://www.nzlawyermagazine.co.nz/files/file/special-report/NZL6.1_Hotlist2014.pdf">legal industry</a>.&nbsp; She is a qualified educator with overseas experience and a guest lecturer in Commercial Law at the University of Auckland.
-			</p>
-			<p class="blurb">
-				Tamina is the recipient of several academic prizes, including being the inaugural recipient of the Judge Karina Williams Prize in Law.
-			</p>
 		</div>
 		<div class="col-xs-12 col-sm-4 blurb-col">
 			<div class="image-container">
