@@ -38,11 +38,20 @@
 	<div class="row text-left">
 		<div class="col-xs-12 col-sm-4 blurb-col">
 			<div class="image-container">
+				<img src="/images/thomas.jpg" alt="Thomas Bloy">
+			</div>
+			<h3><span class="highlight">Thomas Bloy</span></h3>
+			<p class="blurb">
+Thomas co-founded and is managing director of CataLex.  He came up with the idea for CataLex while working as a commercial lawyer for a top-tier law firm.  He loves the law and helping clients, but believes high-quality legal services should be accessible to everyone, not just those with money, connections, or specialised knowledge.  He thinks that technology and automation are the keys to making that vision a reality, which is what CataLex is all about.  When not working on CataLex projects, Thomas works as a lawyer for Evolution Lawyers Limited – a law firm he recently co-founded with Tamina.
+			</p>
+		</div>
+		<div class="col-xs-12 col-sm-4 blurb-col">
+			<div class="image-container">
 				<img src="/images/tamina.jpg" alt="Tamina Cunningham-Adams">
 			</div>
-			<h3><span class="highlight">Tamina Cunningham-Adams</span><br>LLB (Hons), BA, B Ed (Tchg)</h3>
+			<h3><span class="highlight">Tamina Cunningham-Adams</span></h3>
 			<p class="blurb">
-				Tamina is a banking and finance lawyer and practising liquidator.&nbsp; She specialises in corporate and personal insolvency law, securities enforcement and litigation.&nbsp; Before commencing practice as a liquidator, Tamina was a specialist litigator for top tier law firm, Simpson Grierson, for several years.
+Tamina is a co-founder and director of CataLex.  She is also principal of Evolution Lawyers Limited, a practising liquidator of complex corporate assignments, and CEO of insolvency firm Fisher White &amp; Associates.  Before starting CataLex, Tamina worked as a banking &amp; finance litigator for a top-tier law firm.  She is a qualified teacher, a guest lecturer in commercial law for the University of Auckland, and was featured NZ Lawyer's 2014 Hotlist of 38 New Zealand lawyers changing the <a href="http://www.nzlawyermagazine.co.nz/files/file/special-report/NZL6.1_Hotlist2014.pdf" target="_blank">legal industry</a>.
 			</p>
 			<p class="blurb">
 				NZ Lawyer Magazine recently featured Tamina in its 2014 Lawyer Hotlist of 38 New Zealand lawyers changing the <a href="http://www.nzlawyermagazine.co.nz/files/file/special-report/NZL6.1_Hotlist2014.pdf">legal industry</a>.&nbsp; She is a qualified educator with overseas experience and a guest lecturer in Commercial Law at the University of Auckland.
@@ -53,18 +62,9 @@
 		</div>
 		<div class="col-xs-12 col-sm-4 blurb-col">
 			<div class="image-container">
-				<img src="/images/thomas.jpg" alt="Thomas Bloy">
-			</div>
-			<h3><span class="highlight">Thomas Bloy</span><br>LLB</h3>
-			<p class="blurb">
-				Thomas specialises in company, commercial, and contract law, but also has expertise in mergers and acquisitions, capital raising, and insolvency.&nbsp;Before going in-house at CataLex, he worked for Simpson Grierson’s corporate advisory and banking litigation teams. He has advised several NZX50 companies and has Court of Appeal litigation experience. Before becoming a lawyer, Thomas was an operations analyst for TOWER Insurance, specialising in system administration, process improvement, operational efficiency, and quality assurance.
-			</p>
-		</div>
-		<div class="col-xs-12 col-sm-4 blurb-col">
-			<div class="image-container">
 				<img src="/images/josh.jpg" alt="Josh Gagnon">
 			</div>
-			<h3><span class="highlight">Josh Gagnon</span><br>BSc (Hons), BA</h3>
+			<h3><span class="highlight">Josh Gagnon</span></h3>
 			<p class="blurb">
 				Josh is CataLex’s Chief Technology Officer. He is a software engineer that has worked in bioinformatics for the University of Otago.&nbsp; Prior to joining CataLex, Josh developed GIS (Geographic Information System) software for an Otago-based company.
 			</p>
