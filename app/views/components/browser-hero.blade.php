@@ -7,7 +7,7 @@
 				</h1>
 				<h2>Find law faster</h2>
 				<div class="slogan">The better way to view legislation.</div>
-				<a class="btn btn-primary" href="//users.catalex.nz/auth/register">Start free trial</a>
+				<a class="btn btn-primary" href="//browser.catalex.nz">Go To Law Browser </a>
 				@if($location !== '/law-browser')
 					<a class="btn btn-default" href="/law-browser">Features</a>
 				@endif
